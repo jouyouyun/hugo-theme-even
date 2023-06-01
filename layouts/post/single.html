@@ -50,6 +50,9 @@
         </div>
       {{- end -}}
 
+      <!-- Backlinks -->
+      {{- partial "post/backlinks.html" . -}}
+
       <!-- Post Pagination -->
       <nav class="post-nav">
         {{ with .NextInSection -}}
